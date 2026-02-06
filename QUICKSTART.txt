@@ -1,0 +1,42 @@
+"""
+Quick Start Guide for BST Visualizer
+
+This file provides step-by-step instructions to get the application running.
+"""
+
+# INSTALLATION STEPS
+
+1. Open PowerShell or Command Prompt
+2. Navigate to the project directory:
+   cd "C:\Users\Aayush\OneDrive\Desktop\BST Visualizer2.0"
+
+3. Install the required packages:
+   pip install -r requirements.txt
+
+4. Run the application:
+   python -m src.main
+
+# If you encounter any issues:
+
+- Make sure Python 3.7+ is installed: python --version
+- Update pip: python -m pip install --upgrade pip
+- Reinstall PyQt5: pip install --force-reinstall PyQt5
+
+# FIRST-TIME USAGE
+
+1. The application opens with an empty tree
+2. Start by inserting nodes using the Insert panel on the right
+3. Try these values: 50, 30, 70, 20, 40, 60, 80
+4. Experiment with different traversals
+5. Try the random tree generator
+6. Use Undo/Redo to explore different states
+
+# FEATURES TO TRY
+
+- Insert nodes and watch them appear
+- Delete nodes and see the tree reorganize
+- Search for nodes to highlight them
+- Execute different traversals with animation
+- Generate a random tree
+- Toggle dark mode
+- Use Undo/Redo to navigate history
